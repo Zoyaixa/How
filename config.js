@@ -20,26 +20,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['994408465157'] //masukin no owner nya
-global.ownername = "ISI PULSA"
-global.ytname = "YT: ARY GAMZ" //ur yt chanel name
-global.socialm = "GitHub: arygamz" //ur github or insta name
-global.location = "Indonesia, Sumut, Sibolangit" //ur location
+global.owner = ['6283851929130'] //masukin no owner nya
+global.ownername = "Margareta"
+global.ytname = "Gk ada deck!" //ur yt chanel name
+global.socialm = "Apa liatt-liat?" //ur github or insta name
+global.location = "Indonesia, Jatim, Jombang" //ur location
 
 //bot bombdy
-global.botname = "Arybotz-Md" //ur bot name
+global.botname = "RettXD" //ur bot name
 global.websitex = "https://github.com/arygamz" //ur website
 global.vidmenu = { url: 'https://k.top4top.io/m_2368l5agg1.mp4' } //gif and video menu
-global.packname = "Ary Bot Stickers\n\n\n\n\n\n\n🕊️🕊️ "
-global.author = "ARY GAMZ" 
-global.themeemoji = "🕊️"
-global.reactmoji = "🐣"
-global.ownertag = ['994408465157','6281264038909'] //ur owner tag
-global.ownernummenu = ['994408465157','994408465157'] //ur owner number in menu and all
-global.watermark = "Arybotz-MDv3." //ur watermark
-global.botscript = "https://github.com/arygamz/botnoenc"
-global.linkz1 = "https://chat.whatsapp.com/JWMl9LW5g0i0RSj7ophXAk"
-global.linkz2 = "https://chat.whatsapp.com/JWMl9LW5g0i0RSj7ophXAk"
+global.packname = "punya MARGARETA"
+global.author = "⁉️" 
+global.themeemoji = "🗿"
+global.reactmoji = "🤖"
+global.ownertag = ['6283851929130','6283851929130'] //ur owner tag
+global.ownernummenu = ['6283851929130','6283851929130'] //ur owner number in menu and all
+global.watermark = "RettXD" //ur watermark
+global.botscript = "Hayoo cari apa deck??"
+global.linkz1 = "https://chat.whatsapp.com/HxhFecGJ3nz512zMrSFcZ8"
+global.linkz2 = "https://chat.whatsapp.com/GK1tGYSVYaK4lc73z52F9p"
 
 //Bot theme media
 global.thum = fs.readFileSync("./Galery/theme/DNP77picture.jpg") //ur thumb pic
@@ -73,23 +73,23 @@ global.sessionName = "sessionnya"
 global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
-    success: 'Done✓',
-    admin: 'This feature is only for admins!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This feature is only for owner',
-    group: 'This feature is only for groups!',
-    private: 'This feature is only for private chats!',
-    bot: 'This feature is only for bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
+    success: 'Done!',
+    admin: 'Luu tuh bukan admin deck!',
+    botAdmin: 'Bot bukan admin!',
+    owner: 'Luu bukan owner deck!',
+    group: 'Fitur untuk grup!',
+    private: 'Fitur untuk chat pribadi!',
+    bot: 'Lu bukan bot kn?',
+    wait: 'Tunggu deck...',
+    linkm: 'Mana linknya deck?',
     error: 'Error!',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    ban: 'Kesiann diband owner, makanya jan aneh aneh deck!',
+    nsfw: 'Tobat deck!',
+    banChat: 'Bot diband digrup ini oleh owner!'
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 2,
+    free: 5,
     monayawal: 1000
 }
    global.rpg = {
@@ -102,7 +102,7 @@ global.limitawal = {
 }
 global.limitawal = {
     rakyat: "Infinity",
-    free: 100
+    free: 5
 }
 // api website by xenz
 global.APIs = {
