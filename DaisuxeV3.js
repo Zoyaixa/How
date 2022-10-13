@@ -1521,33 +1521,23 @@ const jumlahUser = pendaftar.length
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
 const menulist = `
-┌┯─────⌬ Halo kak 👋
+┌┯─────⌬ Halo deck👋
 │└──⌬「 ${pushname} 」
-└┯─ll──⌬  Apa Kabar 😆?
+└┯─ll──⌬  Cari apa deck?
 ┌┼─────────⌬
 │ ♨ *I N F O - B O T*
 │╓──────⌬
 │╟❯▁ *Bot Name:* _${global.botname}_
 │╟❯▁ *Owner Name:* _${global.ownername}_
 │╟❯▁ *Runtime:* _${runtime(process.uptime())}_
-│╟❯▁ *Gc Bot:* _${global.gc}_
 │╟❯▁ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 │╟❯▁ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
-│╟❯▁ *Library:* _Baileys-Md_
 │╟
 │╚═════════⌬
-│  ♨ *Y O U R - I N F O*
-│╓───
-│╟❯▁ *Your Name:* _${pushname}_
-│╚════════⌬
 └┯────⌬      
   │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
   │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.ownernummenu}
-  │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-  │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-  │𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
-  │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-  │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+  │𝗡𝗮𝗺𝗲 𝗢𝘄𝗻𝗲𝗿 : Margareta 
   │
   ┼ll────⌬「 𝙐𝙎𝙀𝙍'𝙎 𝙇𝙀𝙑𝙀𝙇𝙄𝙉𝙂 」    
  ┌⌬
