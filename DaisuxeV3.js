@@ -1582,27 +1582,27 @@ if (isBanChat) return reply(mess.banChat)
 DhaffNetwork.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 	                let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube ❤️',
+                                    displayText: 'Instagram📸',
                                     url: `${websitex}`
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Script 📄',
-                                    url: `${botscript}`
+                                    displayText: 'Speed⏱️',
+                                    url: `${latensie.toFixed(4)} miliseconds`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu 📋',
+                                    displayText: 'All Menu📋',
                                     id: 'allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu 📖',
+                                    displayText: 'List Menu📖',
                                     id: 'command'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🕊️',
+                                    displayText: 'Owner👑',
                                     id: 'owner'
                                 }
                             }]
@@ -1617,11 +1617,11 @@ DhaffNetwork.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.ke
                         DhaffNetwork.send5ButMsg(m.chat, menulist, global.botname, btn)
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube ❤️`, url : `${websitex}` } },
-            { urlButton: { displayText: `Script 📄`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 📋`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 📖`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner  `, id: 'owner'} }
+        	{ urlButton: { displayText: `Instagram📸`, url : `${websitex}` } },
+            { urlButton: { displayText: `Speed⏱️`, url: `${latensie.toFixed(4)} miliseconds` } },
+            { quickReplyButton: { displayText: `All Menu📋`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `List Menu📖`, id: 'command'} },
+            { quickReplyButton: { displayText: `Owner👑`, id: 'owner'} }
         	]
         	DhaffNetwork.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./Galery/theme/daisuxe.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                 await DhaffNetwork.sendMessage(m.chat, {audio:  fs.readFileSync('./galery/audio/menu.mp3'), mimetype: 'audio/mp4', ptt:true}, {quoted:m})
@@ -1634,20 +1634,20 @@ if (isBan) return reply(mess.ban)
 if (isBanChat) return reply(mess.banChat)
 DhaffNetwork.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube ❤️`, url : `${websitex}` } },
-            { urlButton: { displayText: `Script 📄`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 📋`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 📖`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🕊️`, id: 'owner'} }
+        	{ urlButton: { displayText: `Instagram📸`, url : `${websitex}` } },
+            { urlButton: { displayText: `Speed⏱️`, url: `${latensie.toFixed(4)} miliseconds` } },
+            { quickReplyButton: { displayText: `All Menu📋`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `List Menu📖`, id: 'command'} },
+            { quickReplyButton: { displayText: `Owner👑`, id: 'owner'} }
         	]
         	DhaffNetwork.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./Galery/theme/daisuxe.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
         	break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': case 'donasi': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate ☕`
+teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate☕`
 let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'Menu 🌺'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'Menu🌺'}, type: 1}
 ]
 let buttonMessage = {
 image: thum,
