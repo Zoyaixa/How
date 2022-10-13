@@ -28,7 +28,7 @@ global.location = "Indonesia, Jatim, Jombang" //ur location
 
 //bot bombdy
 global.botname = "RettXD" //ur bot name
-global.websitex = "https://github.com/arygamz" //ur website
+global.websitex = "https://instagram.com/rrta.xy" //ur website
 global.vidmenu = { url: 'https://k.top4top.io/m_2368l5agg1.mp4' } //gif and video menu
 global.packname = "punya MARGARETA"
 global.author = "⁉️" 
