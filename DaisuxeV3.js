@@ -1521,41 +1521,24 @@ const jumlahUser = pendaftar.length
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
 const menulist = `
-┌┯─────⌬ Halo deck👋
-│└──⌬「 ${pushname} 」
-└┯─ll──⌬  Cari apa deck?
-┌┼─────────⌬
-│ ♨ *I N F O - B O T*
-│╓──────⌬
-│╟❯▁ *Bot Name:* _${global.botname}_
-│╟❯▁ *Owner Name:* _${global.ownername}_
-│╟❯▁ *Runtime:* _${runtime(process.uptime())}_
-│╟❯▁ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-│╟❯▁ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
+┌┯──⌬ Halo deck👋
+│└⌬「 ${pushname} 」
+└┯───⌬  Cari apa deck?
+┌┼───────⌬
+│ ♨ I N F O - B O T
+│╓─────⌬
+│╟❯ *Bot Name:* _${global.botname}_
+│╟❯ *Speed:* _${latensie.toFixed(4)} miliseconds_
+│╟❯ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+│╟❯ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
 │╟
 │╚═════════⌬
-└┯────⌬      
-  │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-  │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.ownernummenu}
-  │𝗡𝗮𝗺𝗲 𝗢𝘄𝗻𝗲𝗿 : Margareta 
-  │
-  ┼ll────⌬「 𝙐𝙎𝙀𝙍'𝙎 𝙇𝙀𝙑𝙀𝙇𝙄𝙉𝙂 」    
- ┌⌬
- │𝗬𝗼𝘂𝗿 𝗟𝗲𝘃𝗲𝗹𝗶𝗻𝗴 : ${levelMenu}
- │𝗬𝗼𝘂𝗿 𝗫𝗽 : ${xpMenu}\ ${reqXp}
- │𝗬𝗼𝘂𝗿 𝗥𝗼𝗹𝗲 : ${role}
- │𝗬𝗼𝘂𝗿 𝗠𝗼𝗻𝗲𝘆 : $${uangku}
- │
- ┼ll────⌬ 「 𝙐𝙎𝙀𝙍'𝙎 𝘼𝘿𝙑𝙀𝙉𝙏𝙐𝙍𝙀 」
-┌────────⌬
-│𝗬𝗼𝘂𝗿 𝗜𝗿𝗼𝗻 : ${getBesi(m.sender)}
-│𝗬𝗼𝘂𝗿 𝗚𝗼𝗹𝗱 : ${getEmas(m.sender)}
-│𝗬𝗼𝘂𝗿 𝗘𝗺𝗲𝗿𝗮𝗹𝗱 : ${getEmerald(m.sender)}
-│𝗬𝗼𝘂𝗿 𝗣𝗼𝘁𝗶𝗼𝗻 : ${getPotion(m.sender)}
-└ll┬─────────────⌬
-   │🕊️ Silahkan tekan  
-   │🕊️ Tombol Di bawah
-   ┼ll───────────────⌬`
+└┯────⌬ 
+ │  ♨ I N F O - O W N E R
+ │• *Nama :* Margareta 
+ │• *Umur :* 17y.o
+ │• *Askot :* Jombang
+ └─────────────────⌬`
 const qtod = m.quoted? "true":"false"
 
 //randoming function
